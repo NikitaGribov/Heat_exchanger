@@ -1,1 +1,14 @@
 Решение тестовой задачи теплопроводности.
+  Linear parabolic equation:
+//
+//  du/dt = (d/dx1)(k(x1,x2)du/dx1) + (d/dx2)(k(x1,x2)du/dx2) + f(x1,x2,t)
+//
+//  a1 < x1 < b1, a2 < x2 < b2, t>0
+//
+//  u(x1,x2,0) = g0(x1,x2)
+//
+//  u(a1,x2,t) = g11(t), u(b1,x2,t) = g12(t)
+//
+//  u(x1,a2,t) = g21(t), u(x1,b2,t) = g22(t)
+//
+//  Explicit scheme
